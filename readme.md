@@ -8,9 +8,8 @@ WP Router is a plugin for WordPress that brings MVC feel to WordPress. WP Router
 
 On your WordPress theme directory look for the file called index.php. Open the file in your favorite text editor and add the following code.
 
-`Router::get('/', 'SomeController@index'); //Register get route`
-
-`Router::post('/', 'SomeController@save'); //Register post route`
+    Router::get('/', 'SomeController@index'); //Register get route
+    Router::post('/', 'SomeController@save'); //Register post route
 
 ## VERY IMPORTANT
 
